@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #5b6479;
+  background-image: url('spaceTexture.jpg');
   margin: 0;
   padding: 0;
 }
 
 header {
   position: fixed;
-  background-color: #5b6479;
+  background-color: rgba(0,0,0,0);
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -20,6 +20,7 @@ h1 {
   text-align: center;
   font-family: 'Silkscreen', sans-serif;
   font-weight: 400;
+  font-size: 30px;
 }
 
 main {
@@ -32,11 +33,14 @@ main {
 }
 
 .garage-list li {
-  background-color: #5b6479;
+  background-color:rgba(0,0,0,0.5);
   margin: 10px 0;
   padding: 15px;
   color: white;
   font-family: 'Silkscreen', sans-serif;
   font-size: 20px;
+  margin-right:37%;
+  margin-left:37%;
+  width: 25%;
 }
 
