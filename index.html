@@ -6,13 +6,16 @@
     <title>Garage Items</title>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" crossorigin href="/assets/index-CgiTbJmj.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-D2aUlEaM.css">
 </head>
 <body>
     <header>
+        <div id = "close_div"><p class="closeX" id="returnToMainPage">⬅</p></div>
+        <div></div>
         <h1>A NON ESTENSIVE LIST OF THINGS IN A GARAGE</h1>
     </header>
     <main>
+        
         <ul class="garage-list">
 
         <li> boxes </li>
@@ -74,4 +77,11 @@
     <footer>
     </footer>
 </body>
+<script>
+    function returnToMainPage(){
+      window.location.replace('https://the-cosmic-garage.netlify.app/')
+    }
+    document.getElementById('returnToMainPage').ontouchend = returnToMainPage;
+    document.getElementById('returnToMainPage').onclick = returnToMainPage;
+  </script>
 </html>
